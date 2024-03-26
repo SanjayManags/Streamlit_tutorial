@@ -1,9 +1,11 @@
+import sys
+import subprocess
+
 # Install PyMuPDF package if not already installed
 try:
     import fitz
 except ImportError:
-    import sys
-    !{sys.executable} -m pip install PyMuPDF
+    subprocess.run([sys.executable, "-m", "pip", "install", "PyMuPDF"])
 
 import os
 
