@@ -1,0 +1,4 @@
+streamlit==0.68.1
+PyMuPDF==1.18.15
+tkinter==8.6
+sys==3.12.2
